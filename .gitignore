@@ -1,0 +1,21 @@
+# Local dependencies
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+
+# Local editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Robot's temporary output (the two full-run reports in results/ ARE included)
+robot/output.xml
+robot/log.html
+robot/report.html
+robot/*.png
+robot/*.html
+
+# Cypress local cache/downloads
+cypress/cypress/downloads/
